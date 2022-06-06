@@ -26,6 +26,7 @@
     -Bool LancarNotasAlunos() 
   }
 
-  Aluno --> Turma
-  
+  Aluno --> Turma : pertence à
+  Professor --> Turma : ensina à turma
+
 @enduml
