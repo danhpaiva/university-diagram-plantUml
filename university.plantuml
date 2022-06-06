@@ -1,0 +1,31 @@
+@startuml
+  class Aluno {
+    +String Nome
+    +String Endereco
+    +String Cpf
+    +String ObterMatriculaAluno()
+  }
+
+  class Professor {
+    +String Nome
+    +String Endereco
+    +String Cpf
+    +String Registro
+    +String ObterRegistroProfessor()
+  }
+
+  class Turma {
+    +String Codigo
+    +String Sala
+    +String Horario
+    +String NomeDisciplina
+    +String RegistroProfessor
+    +List Alunos
+    -List ExibirAlunos()
+    +Dict ExibirDadosTurma()
+    -Bool LancarNotasAlunos() 
+  }
+
+  Aluno --> Turma
+  
+@enduml
