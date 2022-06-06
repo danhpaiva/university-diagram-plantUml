@@ -12,6 +12,7 @@
  <a href="#status">Status</a> • 
  <a href="#objective">Objective</a> •
  <a href="#technology">Technology</a> • 
+ <a href="#install">Install</a> • 
  <a href="#author">Author</a> • 
  <a href="#licence">Licence</a>
 </p>
@@ -23,7 +24,21 @@
 <h2 id=objective>📜 Objective</h2>
 
 Studying diagrams with the plantuml tool.<br>
-Understand notations.
+Understand notations.<br>
+
+<h2 id=objective>📜 Objective</h2>
+
+Clone repo<br>
+To follow a preview of the diagram:
+
+~~~
+Alt + D
+~~~
+
+Documentation:
+
+- [site](https://plantuml.com/)
+- [examples](https://real-world-plantuml.com/)
 
 <h2 id=technology>🧰 Technology</h2>
 
